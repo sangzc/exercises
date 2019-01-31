@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    border-radius: 1rem;
+    background-color: lightgrey;
+    width: 50%;
+    
+}
+
+.top-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    border-radius: 1rem;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+h1 {
+    position: absolute;
+    background-color: lightgrey;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+    border: 1px solid rgb(140, 142, 143);
+    
+
+}
+
+p{
+    background-color: lightgrey;
+   border-radius: 1rem;
+   padding: 1rem;
+}

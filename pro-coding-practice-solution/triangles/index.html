@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Triangles</title>
+</head>
+<body>
+
+<h1>Triangles!</h1>
+<form id="triangle-form">
+  <p>Side A:
+    <input id="side-a"> <i id="a-msg"></i>
+  </p>
+  <p>Side b:
+    <input id="side-b"> <i id="b-msg"></i>
+  </p>
+  <button type="submit">Calculate!</button>
+</form>
+
+<p><b id="msg"></b></p>
+
+<script src="triangles.js"></script>
+<script>
+  document.getElementById("triangle-form").addEventListener(
+      "submit",
+      processForm);
+</script>
+
+</body>
+</html>
