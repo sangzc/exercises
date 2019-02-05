@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="hack-or-snooze.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"></head>
+<body>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand">Hack or Snooze</a>
+        <div class="navbar" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link link" href="#" id="submitNav">submit</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link" href="#">favorites</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <form id="newStoryForm">
+        <div class="form-group">
+            <label for="titleInput">title</label>
+            <input class="form-control" id="titleInput">
+        </div>
+        <div class="form-group">
+            <label for="urlInput">url</label>
+            <input type="url" class="form-control" id="urlInput">
+        </div>
+        <button type="submit" class="btn btn-primary" id="submitButton">submit</button>
+    </form>
+
+    <ol class="storySection">
+        <li>
+            <i class="far fa-lemon"></i>
+            <a class="storyTitle" href="#">Kanye West Named New Face of Yeezy</a>
+            <a class="storyLink" href="#">(https://entertainment.theonion.com/kanye-west-named-new-face-of-yeezy-1832335816)</a>
+        </li>
+        <li>
+            <i class="far fa-lemon"></i>
+            <a class="storyTitle" href="#">Giant Demonic Hand Bursts Out of Ground, Drags Bill Belichick Back To Hell</a>
+            <a class="storyLink" href="#">(https://sports.theonion.com/giant-demonic-hand-bursts-out-of-ground-drags-bill-bel-1832310427)</a>
+        </li>
+        <li>
+            <i class="far fa-lemon"></i>
+            <a class="storyTitle" href="#">'No Way to Prevent This', Says Only Nation Where This Regularly Happens</a>
+            <a class="storyLink" href="#">(https://www.theonion.com/no-way-to-prevent-this-says-only-nation-where-this-r-1819580358)</a>
+        </li>
+        <li>
+            <i class="far fa-lemon"></i>
+            <a class="storyTitle" href="#">Nat Geo hires Jeff Goldblum to walk around, being professionally fascinated by things</a>
+            <a class="storyLink" href="#">(https://www.reddit.com/r/nottheonion/comments/923ww4/nat_geo_hires_jeff_goldblum_to_walk_around_being/)</a>
+        </li>
+        <li>
+            <i class="far fa-lemon"></i>
+            <a class="storyTitle" href="#">Ben Affleck finally achieves lifelong dream of not having to play Batman anymore</a>
+            <a class="storyLink" href="#">(something.net)</a>
+        </li>
+    </ol>
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="hack-or-snooze.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+form {
+    display: none;
+}
+
+.navbar {
+    background-color: #FD3E00;
+    padding: 0rem 1rem;
+}
+
+.storyTitle {
+    font-size: 14px;
+    color: black;
+}
+
+.storyTitle:hover {
+    text-decoration: none;
+}
+
+.storyLink {
+    font-size: 10px;
+    color: grey;
+}
+
+.storyLink:hover {
+    color: grey;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin: 10px 20px 
+}
+
+.storySection {
+    background-color: #F6F6EE;
+    /* padding: 10px 0px; */
+}
+
+li {
+    padding: 3px;
+    color: grey;
+}
+
+#newStoryForm {
+    background-color: #F6F6EE;
+    padding: 10px 10px 35px
+}
+
+.form-group {
+    /* display: inline; */
+}
+
+.form-control {
+    display: inline;
+    width: 50%;
+}
+
+input {
+    align-content: right;
+}
+
+
+#submitButton {
+    background-color: #FD3E00;
+    border: transparent;
+}
+
+#submitButton:hover {
+    background-color: rgb(193, 48, 0);
+}
