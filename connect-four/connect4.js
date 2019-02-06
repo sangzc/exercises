@@ -34,6 +34,7 @@ function makeBoard(h, w) {
 function makeHtmlBoard() {
   // TODO: get "board" variable from the item in HTML w/ID of "board"
   const board = document.getElementById("board");
+  board.innerHTML = '';
 
   // TODO: make the top row of the board that the user clicks on 
   const top = document.createElement("tr"); //<tr id="column-top" ></tr>
