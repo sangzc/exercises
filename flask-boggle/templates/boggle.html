@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<table>
+    {% for row in board %}
+        <tr>
+        {% for letter in row %}
+            <td>{{letter}}</td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
+</table>
+<form id="guess-form" action="#">
+    <input id="guess-word">
+    <button>submit</button>
+</form>
+<div>
+    <p id="answer-result"></p>
+    <h3>Score</h3>
+    <p id="score-keeping">0</p>
+</div>
+
+<div class="time">
+    <h3>Time Left:</h3>
+    <p class="stop-watch"></p>
+</div>
+{% endblock %}
